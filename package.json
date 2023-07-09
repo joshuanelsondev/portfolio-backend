@@ -1,8 +1,8 @@
 {
   "name": "portfolio-backend-app",
   "version": "1.0.0",
-  "description": "Backend for my portfolio",
-  "main": "index.js",
+  "description": "API server for my portfolio",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
@@ -10,7 +10,7 @@
     "db:seed": "psql -f db/seed.sql",
     "isd": "npm run db:init && npm run db:seed && npm run dev"
   },
-  "author": "Joshua Nelson",
+  "author": "joshuanelsondev",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
