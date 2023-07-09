@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS portfolio;
-CREATE DATABASE portfolio;
+DROP DATABASE IF EXISTS portfolio_dev;
+CREATE DATABASE portfolio_dev;
 
-\c portfolio;
+\c portfolio_dev;
 
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 

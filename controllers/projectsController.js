@@ -14,7 +14,7 @@ projects.get("/", async (req, res) => {
 
   if (error) {
     console.log(error);
-    return res.status(500).json({ error: "server error" });
+    return res.status(500).json({ error: error });
   } else {
     return res.status(200).json(allProjects);
   }

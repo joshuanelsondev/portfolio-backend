@@ -1,4 +1,4 @@
-\c portfolio;
+\c portfolio_dev;
 
 INSERT INTO projects (title, description, tech, image, github_link, demo_link, is_favorite, created_on)
 VALUES
